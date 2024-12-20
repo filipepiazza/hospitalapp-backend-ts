@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/patients
+Content-Type: application/json
+
+{
+    "name": "Matti Luukkainen",
+    "dateOfBirth": "1990-04-09",
+    "gender": "male",
+    "ssn": "4567678-8768",
+    "occupation": "Digital evangelist senior"
+  }
